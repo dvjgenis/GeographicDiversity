@@ -5,6 +5,10 @@ Reproducible data science framework for quantifying how geographic dispersion im
 **Project lead:** Dulf Vincent Genis  
 **Project context:** Developed during my time at the Ameren Innovation Center in Champaign, IL (2025)
 
+## Quick Navigation
+
+[Research Paper](#research-output) • [Interactive Visuals](#interactive-visual-gallery) • [Quick Start](#quick-run-flow) • [Data Science Highlights](#data-science-highlights) • [Citation](#citation)
+
 **At a glance**
 - Scope: Solar + wind geographic diversity analytics (hourly, multi-year)
 - Methods: Complementarity, correlation, absolute difference, portfolio smoothing
@@ -58,6 +62,22 @@ Interactive maps and heatmaps are therefore published through **GitHub Pages** a
 After Pages is enabled in repository settings, use links like:
 - `https://<your-github-username>.github.io/GeographicDiversity/interactive/solar_map_with_labels.html`
 - `https://<your-github-username>.github.io/GeographicDiversity/interactive/wind_map_with_labels.html`
+
+## Interactive Visual Gallery
+
+Click any preview image to open the live interactive version.
+
+[![Solar map preview](docs/interactive/previews/solar_map_preview.png)](https://dvjgenis.github.io/GeographicDiversity/interactive/solar_map_with_labels.html)
+[![Solar heatmap preview](docs/interactive/previews/solar_heatmap_preview.png)](https://dvjgenis.github.io/GeographicDiversity/interactive/solar_heatmap_monthly.html)
+
+[![Wind map preview](docs/interactive/previews/wind_map_preview.png)](https://dvjgenis.github.io/GeographicDiversity/interactive/wind_map_with_labels.html)
+[![Wind heatmap preview](docs/interactive/previews/wind_heatmap_preview.png)](https://dvjgenis.github.io/GeographicDiversity/interactive/wind_heatmap_monthly.html)
+
+Direct links:
+- [Solar interactive map](https://dvjgenis.github.io/GeographicDiversity/interactive/solar_map_with_labels.html)
+- [Solar monthly interactive heatmap](https://dvjgenis.github.io/GeographicDiversity/interactive/solar_heatmap_monthly.html)
+- [Wind interactive map](https://dvjgenis.github.io/GeographicDiversity/interactive/wind_map_with_labels.html)
+- [Wind monthly interactive heatmap](https://dvjgenis.github.io/GeographicDiversity/interactive/wind_heatmap_monthly.html)
 
 ## Project Structure
 
