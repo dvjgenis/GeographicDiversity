@@ -1,6 +1,6 @@
 # Geographic Diversity Analysis for Renewable Energy
 
-Reproducible data science framework for quantifying how geographic dispersion improves renewable generation reliability across solar and wind portfolios.
+Portfolio-grade data science project that quantifies how geographic dispersion improves renewable generation reliability across solar and wind portfolios.
 
 **Project lead:** Dulf Vincent Genis  
 **Project context:** Developed during my time at the Ameren Innovation Center in Champaign, IL (2025)
@@ -25,7 +25,7 @@ The code, data transformations, and exported artifacts here are the reproducible
 
 ## Why This Work Matters
 
-Renewables are variable in space and time. Geographic diversity can smooth output when sites are weakly correlated or complementary, improving planning confidence for grid operators and energy portfolio designers.
+Renewables vary across both time and location. When sites are weakly correlated or complementary, geographic diversity can smooth aggregate output and improve planning confidence for grid operators and portfolio designers.
 
 This project operationalizes that idea with:
 - Pairwise temporal complementarity metrics
@@ -33,22 +33,23 @@ This project operationalizes that idea with:
 - Aggregate variability reduction analysis
 - Interactive geospatial and temporal visualizations
 
-## Analytical Depth
+## Technical Scope
 
-Core analytical techniques implemented in this repository:
+Core analytical methods implemented in this repository:
 
-- **Pairwise production complementarity**: Simultaneous zero-output percentages by site pair
-- **Correlation structure analysis**: Pearson coefficients across multi-year hourly timeseries
+- **Pairwise production complementarity**: Simultaneous zero-output rates for site pairs
+- **Correlation structure analysis**: Pearson coefficients across multi-year hourly time series
 - **Difference intensity analysis**: Thresholded absolute output divergence
 - **Portfolio smoothing analysis**: Aggregate pair statistics and variance behavior
 - **Spatiotemporal visual analytics**: Interactive maps and multi-granularity heatmaps
 - **Reproducibility controls**: Coverage diagnostics and SHA256 checks for generated datasets
 
-## Data Science Highlights
+## Portfolio Highlights
 
-- Built paired-site analytical pipelines for two resource classes (solar and wind) using hourly multi-year datasets.
-- Combined geospatial context with statistical diagnostics to translate raw weather/irradiance signals into decision-relevant reliability metrics.
-- Structured outputs for both research interpretation (paper draft) and communication-ready artifacts (interactive maps, heatmaps, and summary tables).
+- Designed end-to-end paired-site analytics for two renewable resource classes (solar and wind) using hourly multi-year datasets.
+- Combined geospatial context with statistical diagnostics to transform weather and irradiance signals into decision-relevant reliability metrics.
+- Produced reproducible research outputs and presentation-ready artifacts (interactive maps, heatmaps, and summary tables).
+- Packaged workflows for repeatable execution and publication through GitHub Pages.
 
 ## Interactive Visuals on GitHub
 
@@ -109,13 +110,13 @@ GeographicDiversity/
 4. Publish selected interactive HTML outputs to `docs/interactive/`.
 5. Push to GitHub to auto-deploy Pages.
 
-For the step-by-step starter workflow, see [`QUICKSTART.md`](QUICKSTART.md).
+For the step-by-step setup and execution guide, see [`QUICKSTART.md`](QUICKSTART.md).
 
 ## What To Run and What You Get
 
-Run `python scripts/run_all_analyses.py` in `Solar_Package/` to get NSRDB-based solar diversity outputs including `production_analysis_results.csv`, `correlation_analysis_results.csv`, `absolute_difference_analysis_results.csv`, `aggregate_pair_analysis_results.csv`, and interactive HTML maps/heatmaps.
+Run `python scripts/run_all_analyses.py` in `Solar_Package/` to generate NSRDB-based solar diversity outputs, including `production_analysis_results.csv`, `correlation_analysis_results.csv`, `absolute_difference_analysis_results.csv`, `aggregate_pair_analysis_results.csv`, and interactive HTML maps/heatmaps.
 
-Run `python scripts/run_all_analyses.py` in `Wind_Package/` to get the same report structure for Meteostat-driven wind analysis.
+Run `python scripts/run_all_analyses.py` in `Wind_Package/` to generate the same report structure for Meteostat-driven wind analysis.
 
 Run `python scripts/publish_interactive_assets.py` from the repository root to copy curated interactive HTML artifacts into `docs/interactive/` for GitHub Pages publishing.
 
