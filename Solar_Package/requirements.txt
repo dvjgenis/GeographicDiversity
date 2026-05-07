@@ -1,0 +1,12 @@
+# GeographicDiversity_Package/Solar_Package/requirements.txt
+
+pandas
+numpy
+requests
+haversine
+matplotlib
+seaborn
+folium
+plotly
+fpdf
+openpyxl

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c27ed2e4ecf4a9210808eb1df6dde388 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c27ed2e4ecf4a9210808eb1df6dde388" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c27ed2e4ecf4a9210808eb1df6dde388 = L.map(
+                "map_c27ed2e4ecf4a9210808eb1df6dde388",
+                {
+                    center: [40.0, -90.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6e2ac786103155d38f9111daf1c0399a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c27ed2e4ecf4a9210808eb1df6dde388);
+        
+    
+            var marker_1ee164f038ab5c6fd85e044b1fe99512 = L.marker(
+                [43.48076, -92.61346],
+                {}
+            ).addTo(map_c27ed2e4ecf4a9210808eb1df6dde388);
+        
+    
+        var popup_48c7aaf41a3042c32dd189cf2698cedd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a1652b293f37e4ef7aaf3d9dbd5f471 = $(`<div id="html_7a1652b293f37e4ef7aaf3d9dbd5f471" style="width: 100.0%; height: 100.0%;">Howard, IA, Iowa</div>`)[0];
+                popup_48c7aaf41a3042c32dd189cf2698cedd.setContent(html_7a1652b293f37e4ef7aaf3d9dbd5f471);
+            
+        
+
+        marker_1ee164f038ab5c6fd85e044b1fe99512.bindPopup(popup_48c7aaf41a3042c32dd189cf2698cedd)
+        ;
+
+        
+    
+    
+            marker_1ee164f038ab5c6fd85e044b1fe99512.bindTooltip(
+                `<div>
+                     Howard, IA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3dc6d3df7d05aeb7a5e8619f680513e = L.marker(
+                [40.43372, -95.43277],
+                {}
+            ).addTo(map_c27ed2e4ecf4a9210808eb1df6dde388);
+        
+    
+        var popup_455da0eef15595d1c5a865f510ab72f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4438552e0684baca64e2b45b8871a44b = $(`<div id="html_4438552e0684baca64e2b45b8871a44b" style="width: 100.0%; height: 100.0%;">Atchison, MO, Missouri</div>`)[0];
+                popup_455da0eef15595d1c5a865f510ab72f3.setContent(html_4438552e0684baca64e2b45b8871a44b);
+            
+        
+
+        marker_b3dc6d3df7d05aeb7a5e8619f680513e.bindPopup(popup_455da0eef15595d1c5a865f510ab72f3)
+        ;
+
+        
+    
+    
+            marker_b3dc6d3df7d05aeb7a5e8619f680513e.bindTooltip(
+                `<div>
+                     Atchison, MO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_973d4fac391245a3c48c3e29fbf8b051 = L.marker(
+                [40.39824, -92.51861],
+                {}
+            ).addTo(map_c27ed2e4ecf4a9210808eb1df6dde388);
+        
+    
+        var popup_e03b626a643ea4255c4cf909c6566409 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_175d627d2a90a7f08721d8096a59a9b5 = $(`<div id="html_175d627d2a90a7f08721d8096a59a9b5" style="width: 100.0%; height: 100.0%;">Schuyler, MO, Missouri</div>`)[0];
+                popup_e03b626a643ea4255c4cf909c6566409.setContent(html_175d627d2a90a7f08721d8096a59a9b5);
+            
+        
+
+        marker_973d4fac391245a3c48c3e29fbf8b051.bindPopup(popup_e03b626a643ea4255c4cf909c6566409)
+        ;
+
+        
+    
+    
+            marker_973d4fac391245a3c48c3e29fbf8b051.bindTooltip(
+                `<div>
+                     Schuyler, MO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5314bb0d9a36f9cd672eb4e18aec1647 = L.marker(
+                [40.29, -88.51],
+                {}
+            ).addTo(map_c27ed2e4ecf4a9210808eb1df6dde388);
+        
+    
+        var popup_146008818bba87587c106f6e9e2ed091 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83df3b815d0930bfa0f1aff2f6598a65 = $(`<div id="html_83df3b815d0930bfa0f1aff2f6598a65" style="width: 100.0%; height: 100.0%;">McLean, IL, Illinois</div>`)[0];
+                popup_146008818bba87587c106f6e9e2ed091.setContent(html_83df3b815d0930bfa0f1aff2f6598a65);
+            
+        
+
+        marker_5314bb0d9a36f9cd672eb4e18aec1647.bindPopup(popup_146008818bba87587c106f6e9e2ed091)
+        ;
+
+        
+    
+    
+            marker_5314bb0d9a36f9cd672eb4e18aec1647.bindTooltip(
+                `<div>
+                     McLean, IL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_536c3a7b4154f46543e84d77d1e85b92 = L.marker(
+                [40.10693, -88.59987],
+                {}
+            ).addTo(map_c27ed2e4ecf4a9210808eb1df6dde388);
+        
+    
+        var popup_15892c3530ea414c5aeb901ea6d6adba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c796418324d5658c73bbaecda7d5fea = $(`<div id="html_3c796418324d5658c73bbaecda7d5fea" style="width: 100.0%; height: 100.0%;">Piatt, IL, Illinois</div>`)[0];
+                popup_15892c3530ea414c5aeb901ea6d6adba.setContent(html_3c796418324d5658c73bbaecda7d5fea);
+            
+        
+
+        marker_536c3a7b4154f46543e84d77d1e85b92.bindPopup(popup_15892c3530ea414c5aeb901ea6d6adba)
+        ;
+
+        
+    
+    
+            marker_536c3a7b4154f46543e84d77d1e85b92.bindTooltip(
+                `<div>
+                     Piatt, IL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73f367848fd61fd375c72b9a55a117b7 = L.marker(
+                [38.18992, -90.2056],
+                {}
+            ).addTo(map_c27ed2e4ecf4a9210808eb1df6dde388);
+        
+    
+        var popup_91cfd47e920c347e4d142de099bf93d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eae34632528b8b09a4c78d63c1dde97d = $(`<div id="html_eae34632528b8b09a4c78d63c1dde97d" style="width: 100.0%; height: 100.0%;">Monroe, IL, Illinois</div>`)[0];
+                popup_91cfd47e920c347e4d142de099bf93d6.setContent(html_eae34632528b8b09a4c78d63c1dde97d);
+            
+        
+
+        marker_73f367848fd61fd375c72b9a55a117b7.bindPopup(popup_91cfd47e920c347e4d142de099bf93d6)
+        ;
+
+        
+    
+    
+            marker_73f367848fd61fd375c72b9a55a117b7.bindTooltip(
+                `<div>
+                     Monroe, IL
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98da2ebd8dc20fc233cf3669a39f6292 = L.marker(
+                [36.29707, -93.35605],
+                {}
+            ).addTo(map_c27ed2e4ecf4a9210808eb1df6dde388);
+        
+    
+        var popup_2c8fc4d13fcf428eabc6e3ee28b6ef5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a4005f7b52797e66861af7a923ca813 = $(`<div id="html_8a4005f7b52797e66861af7a923ca813" style="width: 100.0%; height: 100.0%;">Carroll, AR, Arkansas</div>`)[0];
+                popup_2c8fc4d13fcf428eabc6e3ee28b6ef5c.setContent(html_8a4005f7b52797e66861af7a923ca813);
+            
+        
+
+        marker_98da2ebd8dc20fc233cf3669a39f6292.bindPopup(popup_2c8fc4d13fcf428eabc6e3ee28b6ef5c)
+        ;
+
+        
+    
+    
+            marker_98da2ebd8dc20fc233cf3669a39f6292.bindTooltip(
+                `<div>
+                     Carroll, AR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,13 @@
+# GeographicDiversity_Package/Wind_Package/requirements.txt
+
+pandas
+numpy
+meteostat
+matplotlib
+folium
+plotly
+haversine
+fpdf
+seaborn
+requests
+openpyxl
