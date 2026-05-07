@@ -7,7 +7,7 @@ Reproducible data science framework for quantifying how geographic dispersion im
 
 ## Quick Navigation
 
-[Research Paper](#research-output) • [Interactive Visuals](#interactive-visual-gallery) • [Quick Start](#quick-run-flow) • [Data Science Highlights](#data-science-highlights) • [Citation](#citation)
+[Research Paper](#research-output) • [Interactive Heatmaps](#interactive-heatmaps) • [Quick Start](#quick-run-flow) • [Data Science Highlights](#data-science-highlights) • [Citation](#citation)
 
 **At a glance**
 - Scope: Solar + wind geographic diversity analytics (hourly, multi-year)
@@ -53,31 +53,28 @@ Core analytical techniques implemented in this repository:
 ## Interactive Visuals on GitHub
 
 GitHub README cannot run embedded Plotly JavaScript directly.  
-Interactive maps and heatmaps are therefore published through **GitHub Pages** and linked from this README.
+Interactive Plotly outputs are therefore published through **GitHub Pages** and linked from this README.
 
 - Interactive artifacts live under `docs/interactive/`
 - Deployment is handled by `.github/workflows/deploy-pages.yml`
 - Publishing instructions: [`docs/interactive/README.md`](docs/interactive/README.md)
 
-After Pages is enabled in repository settings, use links like:
-- `https://<your-github-username>.github.io/GeographicDiversity/interactive/solar_map_with_labels.html`
-- `https://<your-github-username>.github.io/GeographicDiversity/interactive/wind_map_with_labels.html`
+After Pages is enabled in repository settings, the interactive heatmap URLs follow this pattern:
+- `https://<your-github-username>.github.io/GeographicDiversity/interactive/solar_heatmap_monthly.html`
+- `https://<your-github-username>.github.io/GeographicDiversity/interactive/wind_heatmap_monthly.html`
 
-## Interactive Visual Gallery
+## Interactive Heatmaps
 
-Click any preview image to open the live interactive version.
+Open the live Plotly heatmaps:
 
-[![Solar map preview](docs/interactive/previews/solar_map_preview.png)](https://dvjgenis.github.io/GeographicDiversity/interactive/solar_map_with_labels.html)
-[![Solar heatmap preview](docs/interactive/previews/solar_heatmap_preview.png)](https://dvjgenis.github.io/GeographicDiversity/interactive/solar_heatmap_monthly.html)
+- [Solar Monthly Interactive Heatmap](https://dvjgenis.github.io/GeographicDiversity/interactive/solar_heatmap_monthly.html)
+- [Wind Monthly Interactive Heatmap](https://dvjgenis.github.io/GeographicDiversity/interactive/wind_heatmap_monthly.html)
 
-[![Wind map preview](docs/interactive/previews/wind_map_preview.png)](https://dvjgenis.github.io/GeographicDiversity/interactive/wind_map_with_labels.html)
-[![Wind heatmap preview](docs/interactive/previews/wind_heatmap_preview.png)](https://dvjgenis.github.io/GeographicDiversity/interactive/wind_heatmap_monthly.html)
+Optional direct path references:
+- `interactive/solar_heatmap_monthly.html`
+- `interactive/wind_heatmap_monthly.html`
 
-Direct links:
-- [Solar interactive map](https://dvjgenis.github.io/GeographicDiversity/interactive/solar_map_with_labels.html)
-- [Solar monthly interactive heatmap](https://dvjgenis.github.io/GeographicDiversity/interactive/solar_heatmap_monthly.html)
-- [Wind interactive map](https://dvjgenis.github.io/GeographicDiversity/interactive/wind_map_with_labels.html)
-- [Wind monthly interactive heatmap](https://dvjgenis.github.io/GeographicDiversity/interactive/wind_heatmap_monthly.html)
+For the full publishing workflow, see [`docs/interactive/README.md`](docs/interactive/README.md).
 
 ## Project Structure
 
